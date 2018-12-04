@@ -1,0 +1,15 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password:
+  host: db
+
+development:
+  <<: *default
+  database: docker_rails_api_development
+
+test:
+  <<: *default
+  database: docker_rails_api_test

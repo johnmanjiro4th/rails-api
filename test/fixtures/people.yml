@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  e_code: MyString
+  e_name: MyString
+  local_station: MyString
+
+two:
+  e_code: MyString
+  e_name: MyString
+  local_station: MyString
